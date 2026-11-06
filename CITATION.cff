@@ -1,12 +1,16 @@
 cff-version: 1.2.0
 message: >-
-  If you use Cola2, please cite this software release. Formal paper metadata
-  will be added when it becomes publicly available.
+  If you use Cola2, please cite the Cola2 arXiv paper and this software
+  release.
 title: Cola2
 type: software
 version: 0.1.0
 license: Apache-2.0
-url: https://hongcanguo.github.io/Cola2
+url: https://hongcanguo.github.io/Cola2/
+identifiers:
+  - type: url
+    value: https://arxiv.org/abs/2610.31305
+    description: Cola2 paper on arXiv
 abstract: >-
   Inference and evaluation software for Cola2: Co-Adaptive Hierarchical
   Language Modeling with Continuous Semantic Compression and Balanced
@@ -38,3 +42,26 @@ authors:
   - given-names: Hengshuang
     family-names: Zhao
     affiliation: The University of Hong Kong
+preferred-citation:
+  type: article
+  title: >-
+    Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous
+    Semantic Compression and Balanced Discrete Generation
+  authors:
+    - given-names: Hongcan
+      family-names: Guo
+    - given-names: Yian
+      family-names: Zhao
+    - given-names: Feng
+      family-names: Wang
+    - given-names: Shen
+      family-names: Nie
+    - given-names: Guoqiang
+      family-names: Wei
+    - given-names: Yan
+      family-names: Zeng
+    - given-names: Hengshuang
+      family-names: Zhao
+  year: 2026
+  journal: arXiv preprint arXiv:2610.31305
+  url: https://arxiv.org/abs/2610.31305

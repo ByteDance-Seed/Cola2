@@ -6,8 +6,14 @@ All notable changes to Cola2 are documented here. The format follows
 
 ## [Unreleased]
 
-- Public paper, checkpoint, tokenizer, and normalized benchmark download links
-  will be added when available.
+### Added
+
+- Linked the public [arXiv paper](https://arxiv.org/abs/2610.31305).
+- Added the overview video, controlled-scaling figures, and final eight-task
+  paper table to the bilingual repository home pages.
+
+Checkpoint, tokenizer, and normalized benchmark download links will be added
+when available.
 
 ## [0.1.0] - 2026-10-22
 

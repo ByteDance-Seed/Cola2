@@ -1,29 +1,22 @@
 # Citation
 
-The formal paper citation and arXiv identifier are **coming soon**. Until they
-are available, cite this software release:
+If you use Cola2, please cite the
+[arXiv paper](https://arxiv.org/abs/2610.31305):
 
 ```bibtex
-@software{cola2_software_2026,
-  title   = {Cola2},
-  author  = {Guo, Hongcan and Zhao, Yian and Wang, Feng and Nie, Shen and
-             Wei, Guoqiang and Zeng, Yan and Zhao, Hengshuang},
+@article{guo2026cola2,
+  title   = {Cola2: Co-Adaptive Hierarchical Language Modeling
+             with Continuous Semantic Compression and
+             Balanced Discrete Generation},
+  author  = {Guo, Hongcan and Zhao, Yian and Wang, Feng and Nie, Shen
+             and Wei, Guoqiang and Zeng, Yan and Zhao, Hengshuang},
   year    = {2026},
-  version = {0.1.0},
-  url     = {https://hongcanguo.github.io/Cola2},
-  note    = {Inference and evaluation software for Cola2: Co-Adaptive
-             Hierarchical Language Modeling with Continuous Semantic
-             Compression and Balanced Discrete Generation}
+  journal = {arXiv preprint arXiv:2610.31305},
+  url     = {https://arxiv.org/abs/2610.31305}
 }
 ```
 
-Paper title:
-
-> **Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic
-> Compression and Balanced Discrete Generation**
-
-Authors: Hongcan Guo, Yian Zhao, Feng Wang, Shen Nie, Guoqiang Wei, Yan Zeng,
-and Hengshuang Zhao.
-
-Please update saved citations to the formal paper entry once it is published.
-The machine-readable software citation is in [CITATION.cff](CITATION.cff).
+The machine-readable paper and software metadata is available in
+[CITATION.cff](CITATION.cff). See the
+[project page](https://hongcanguo.github.io/Cola2/) for the interactive paper
+overview.

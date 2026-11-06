@@ -1,8 +1,9 @@
 # Post-pretraining evaluation
 
-Accuracy (%) on eight downstream tasks, as reported in the completed Cola2
-manuscript. The models are not compute-matched and use different training data,
-tokenizers, objectives, and token-counting conventions.
+Accuracy (%) on eight downstream tasks, as reported in the
+[Cola2 paper](https://arxiv.org/abs/2610.31305). The models are not
+compute-matched and use different training data, tokenizers, objectives, and
+token-counting conventions.
 
 Cola2 uses 346.03B **source tokens** and the official low-noise 8-step DiT,
 DiT CFG 10, decoder CFG -0.9, one latent span per decoder chunk, dynamic

@@ -21,8 +21,8 @@ inference implementation and evaluation contract.
 
 - **Paper:** *Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous
   Semantic Compression and Balanced Discrete Generation*
-- **Project page:** <https://hongcanguo.github.io/Cola2>
-- **Paper/arXiv:** Coming soon
+- **Project page:** <https://hongcanguo.github.io/Cola2/>
+- **Paper/arXiv:** <https://arxiv.org/abs/2610.31305>
 - **Model repository:** Coming soon
 - **Architecture:** [docs/architecture.md](architecture.md)
 

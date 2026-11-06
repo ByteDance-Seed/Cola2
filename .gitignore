@@ -9,3 +9,6 @@ hf_models/
 benchmark_artifacts/
 eval_data/*.jsonl
 cola2_arxiv/
+detection_tool.py
+opensource_git_commit.log
+sensitive_info_result.txt

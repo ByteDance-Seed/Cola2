@@ -18,8 +18,8 @@ feedback。Checkpoint 与 tokenizer 将在 Hugging Face 单独发布，链接目
 
 - **论文：** *Cola2: Co-Adaptive Hierarchical Language Modeling with
   Continuous Semantic Compression and Balanced Discrete Generation*
-- **项目主页：** <https://hongcanguo.github.io/Cola2>
-- **论文/arXiv：** 即将发布
+- **项目主页：** <https://hongcanguo.github.io/Cola2/>
+- **论文/arXiv：** <https://arxiv.org/abs/2610.31305>
 - **模型仓库：** 即将发布
 - **架构：** [docs/architecture_zh.md](architecture_zh.md)
 

@@ -1,7 +1,8 @@
 {
   "metric": "accuracy_percent",
   "average": "unweighted_mean_over_8_tasks",
-  "source": "completed_cola2_manuscript",
+  "source": "arXiv:2610.31305",
+  "source_url": "https://arxiv.org/abs/2610.31305",
   "cola2_protocol": {
     "task_score": "mean_of_3_independent_latent_noise_evaluations",
     "original_seeds_published": false,

@@ -8,7 +8,9 @@ benchmark JSONL 将通过同一个 Hugging Face 仓库分发，链接目前为
 
 ## 入门
 
-- [论文概览](paper_zh.md)：终稿论文的动机、方法、训练阶段和主要结论。
+- [论文概览](paper_zh.md)与
+  [arXiv:2610.31305](https://arxiv.org/abs/2610.31305)：论文动机、方法、
+  训练阶段和主要结论。
 - [架构](architecture_zh.md)：发布模块与 block 生成循环。
 - [推理](inference_zh.md)：checkpoint 加载、固定 seed replay、CLI 和故障排查。
 - [配置](configuration_zh.md)：模型字段、生成参数、别名和环境变量。

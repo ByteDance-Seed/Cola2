@@ -9,8 +9,9 @@ repository; their link is **coming soon**.
 
 ## Start here
 
-- [Paper overview](paper.md): motivation, method, training stages, and headline
-  findings from the completed manuscript.
+- [Paper overview](paper.md) and
+  [arXiv:2610.31305](https://arxiv.org/abs/2610.31305): motivation, method,
+  training stages, and headline findings.
 - [Architecture](architecture.md): released modules and the block generation
   loop.
 - [Inference](inference.md): checkpoint loading, seeded replay, CLI, and

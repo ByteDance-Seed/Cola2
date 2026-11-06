@@ -42,8 +42,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://hongcanguo.github.io/Cola2"
-Documentation = "https://hongcanguo.github.io/Cola2"
+Homepage = "https://hongcanguo.github.io/Cola2/"
+Documentation = "https://hongcanguo.github.io/Cola2/"
+Paper = "https://arxiv.org/abs/2610.31305"
 
 [project.scripts]
 cola2-chat = "cola2.cli_chat:main"

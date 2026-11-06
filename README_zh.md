@@ -5,8 +5,8 @@ Cola2 是一个让语义压缩与离散文本生成协同适配的连续 latent 
 decoder 和 latent feedback 组成。
 
 [English](README.md) ·
-[项目主页](https://hongcanguo.github.io/Cola2) ·
-论文：**即将发布** ·
+[论文](https://arxiv.org/abs/2610.31305) ·
+[项目主页](https://hongcanguo.github.io/Cola2/) ·
 模型与 benchmark 文件：**即将发布**
 
 ## 项目简介
@@ -29,6 +29,62 @@ Cola2 将文本动态划分为语义 span，用紧凑的连续 latent 表示每�
 
 本仓库不包含训练代码、模型权重、tokenizer 或 benchmark JSONL。Checkpoint 和
 归一化 benchmark 文件将在同一个 Hugging Face 仓库中发布。
+
+## 项目讲解
+
+<video src="assets/videos/cola2-v2-motion-bgm-1080p.mp4" controls width="100%">
+  当前浏览器不支持内嵌视频。
+</video>
+
+[▶ 播放或下载 Cola2 讲解视频](assets/videos/cola2-v2-motion-bgm-1080p.mp4)
+· [打开交互式项目主页](https://hongcanguo.github.io/Cola2/)
+
+## 方法
+
+![Cola2 方法总览：语义压缩、平衡的离散解码、解耦的 latent prior 训练和分块推理。](https://hongcanguo.github.io/Cola2/static/images/cola2-workflow.svg)
+
+Stage I 联合训练动态压缩 encoder 与 token decoder。Stage II 在 token 侧监督下
+继续适配 VAE，同时由约 4B 参数的 DiT 通过 Flow Matching 学习 stop-gradient
+后的 latent 分布。推理时，Cola2 反复执行 latent block 生成、token 解码和固定
+span layout 下的已生成文本重编码，使连续与离散历史始终对齐。
+
+## 受控 Scaling 实验
+
+受控实验在相同模型规模、数据和评测设置下比较 AR、LLaDA、Cola DLM、
+未压缩 Cola-MDM 与压缩后的 Cola2-MDM。Cola-MDM 的总体 scaling 最强；
+Cola2-MDM 收敛较慢，但在约 150B tokens 后持续缩小与 LLaDA 的差距，并且到约
+210B tokens 时仍未饱和。
+
+![AR、LLaDA、Cola DLM、Cola-MDM 和 Cola2-MDM 的受控 scaling 趋势。](assets/figures/scaling-scatter-trend.svg)
+
+最优 decoder classifier-free-guidance 权重在大部分训练期间保持在 `-0.9`
+附近，并随训练逐渐向零移动。
+
+![受控 scaling 训练过程中的最优 decoder CFG 权重。](assets/figures/best-decoder-cfg-trend.svg)
+
+## Post-pretraining 结果
+
+资源受限的 checkpoint 使用 346.03B source tokens。其 latent DiT 尚未收敛，
+但 Cola2 已取得 60.10 的八任务平均分；在报告的预训练 token 少 43 倍以上的
+情况下，HellaSwag 和 StoryCloze 仍超过 Llama-3-8B。
+
+| 任务 | Llama-3-8B | Qwen2.5-7B | Qwen3-8B-Base | LLaDA-8B-Base | **Cola2** |
+|---|---:|---:|---:|---:|---:|
+| 预训练 tokens | 15T+ | 18T | ~36T | 2.3T | **346B** |
+| RACE | 75.77 | 89.95 | 90.65 | 87.40 | **69.91** |
+| NarrativeQA | 42.70 | 32.90 | 37.30 | 36.00 | **32.70** |
+| HellaSwag | 39.21 | 75.67 | 68.13 | 69.65 | **41.75** |
+| StoryCloze | 79.49 | 95.09 | 97.44 | 95.94 | **80.42** |
+| LAMBADA | 75.70 | 71.82 | 71.20 | 67.90 | **63.00** |
+| ARC-Easy | 90.86 | 96.00 | 97.35 | 93.85 | **87.62** |
+| TruthfulQA | 63.04 | 69.03 | 72.58 | 64.87 | **54.10** |
+| MMLU | 63.19 | 70.16 | 72.31 | 61.27 | **51.32** |
+| **八任务平均** | **66.25** | **75.08** | **75.87** | **72.11** | **60.10** |
+
+除 token 行外，其余数值均为准确率（%）。各模型采用不同的训练配方、
+tokenizer 和 token 统计方式，因此该表用于说明能力水平，而不是单独比较生成
+范式。每项 Cola2 成绩均为三次 latent-noise sampled evaluation 的均值；详见
+[参考结果](eval_output/full_test_results.md)和[复现协议](docs/reproduction_zh.md)。
 
 ## 安装
 
@@ -149,8 +205,8 @@ bash scripts/run_benchmark_all.sh --max-samples 0
 
 ## 引用
 
-引用方式见 [CITATION.md](CITATION.md) 和 `CITATION.cff`。正式论文发表信息
-将在可用后补充。
+请引用 [Cola2 arXiv 论文](https://arxiv.org/abs/2610.31305)。BibTeX 与机器
+可读元数据见 [CITATION.md](CITATION.md) 和 `CITATION.cff`。
 
 ## 许可证
 

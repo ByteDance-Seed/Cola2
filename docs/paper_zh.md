@@ -12,8 +12,8 @@ Yan Zeng、Hengshuang Zhao。
 
 **单位：** 香港大学、ByteDance Seed、北京大学、中国人民大学。
 
-[项目主页](https://hongcanguo.github.io/Cola2) ·
-论文与 arXiv 信息：**即将发布**
+[项目主页](https://hongcanguo.github.io/Cola2/) ·
+[arXiv:2610.31305](https://arxiv.org/abs/2610.31305)
 
 ## 动机
 
@@ -76,7 +76,7 @@ decoder 的受控实验。发布的 `Cola2ForConditionalGeneration` checkpoint �
 token realization 路径。如果实验术语不能与公开 API 一一对应，应以发布代码的
 文档为准。
 
-## 引用状态
+## 引用
 
-正式发表信息可用前，请使用 [CITATION.md](../CITATION.md) 中的软件引用。后续会
-补充 arXiv 标识，不改变软件接口。
+请使用 [CITATION.md](../CITATION.md) 中的 arXiv preprint 条目。
+`CITATION.cff` 同时提供论文与软件的机器可读元数据。

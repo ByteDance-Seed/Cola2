@@ -13,8 +13,8 @@ Yan Zeng, and Hengshuang Zhao.
 **Affiliations:** The University of Hong Kong, ByteDance Seed, Peking
 University, and Renmin University of China.
 
-[Project page](https://hongcanguo.github.io/Cola2) ·
-Paper and arXiv metadata: **Coming soon**
+[Project page](https://hongcanguo.github.io/Cola2/) ·
+[arXiv:2610.31305](https://arxiv.org/abs/2610.31305)
 
 ## Motivation
 
@@ -92,8 +92,8 @@ latent generator and span-causal token realization path described in
 [Architecture](architecture.md). Documentation of the released code takes
 precedence when an experimental term does not map one-to-one to a public API.
 
-## Citation status
+## Citation
 
-Until formal publication metadata is available, cite the software entry in
-[CITATION.md](../CITATION.md). The citation file will be updated with the arXiv
-identifier without changing the software interface.
+Cite the arXiv preprint using the entry in [CITATION.md](../CITATION.md).
+Machine-readable paper and software metadata is available in
+[`CITATION.cff`](../CITATION.cff).
