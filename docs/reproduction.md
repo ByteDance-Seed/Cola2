@@ -10,7 +10,8 @@ This guide separates three goals:
 3. the paper-style mean of three independently sampled Cola2 runs.
 
 The model checkpoint and normalized source JSONL files are external artifacts.
-Their Hugging Face link is **coming soon**.
+They are hosted at
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2).
 
 ## 1. Environment
 

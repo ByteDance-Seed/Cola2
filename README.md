@@ -8,7 +8,7 @@ decoder with latent feedback.
 [中文](README_zh.md) ·
 [Paper](https://arxiv.org/abs/2610.31305) ·
 [Project page](https://hongcanguo.github.io/Cola2/) ·
-Model and benchmark files: **Coming soon**
+[Model and benchmark files](https://huggingface.co/ByteDance-Seed/Cola2)
 
 ## Overview
 
@@ -30,8 +30,9 @@ This repository provides:
 - machine-readable and Markdown copies of the reported paper results.
 
 It does not contain training code, model weights, tokenizer assets, or
-benchmark JSONL files. The checkpoint and normalized benchmark files will be
-published in the same Hugging Face repository.
+benchmark JSONL files. The checkpoint and normalized benchmark files are
+hosted in the same
+[Hugging Face repository](https://huggingface.co/ByteDance-Seed/Cola2).
 
 ## Project overview
 
@@ -114,8 +115,9 @@ run from a source checkout.
 
 ## Model files
 
-The Hugging Face release is **coming soon**. After downloading its Transformers
-snapshot, point `COLA2_MODEL_PATH` to the local directory:
+Download the Transformers snapshot from
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2), then point
+`COLA2_MODEL_PATH` to the local directory:
 
 ```bash
 export COLA2_MODEL_PATH=/path/to/cola2
@@ -172,10 +174,10 @@ model, not an instruction-tuned chat assistant.
 
 ## Evaluation
 
-Normalized benchmark JSONL files will be distributed with the Hugging Face
-model release. Download them to `eval_data/`, or set
-`GENERATE_TASK_DATA_DIR=/path/to/eval_data`. Until that release, the data URL
-is intentionally left as **Coming soon**.
+Normalized benchmark JSONL files are distributed with the Hugging Face
+model release. Download them from
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2) to
+`eval_data/`, or set `GENERATE_TASK_DATA_DIR=/path/to/eval_data`.
 
 Run a 200-example smoke benchmark:
 

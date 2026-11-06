@@ -4,10 +4,10 @@
 
 ## Requirements
 
-Checkpoint inference requires the separately released model snapshot
-(**coming soon**). CUDA with bfloat16 is recommended. CPU execution is useful
-for the tiny test configuration but is not a practical target for the released
-checkpoint.
+Checkpoint inference requires the model snapshot hosted at
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2). CUDA with
+bfloat16 is recommended. CPU execution is useful for the tiny test
+configuration but is not a practical target for the released checkpoint.
 
 ```python
 import torch

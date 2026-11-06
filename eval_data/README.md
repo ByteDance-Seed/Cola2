@@ -3,8 +3,9 @@
 [中文](README_zh.md) · [Benchmark documentation](../docs/benchmark.md)
 
 Normalized benchmark JSONL files are distributed externally with the Cola2
-Hugging Face model repository. The release URL is **coming soon**; large
-evaluation files are intentionally not committed to this source repository.
+[Hugging Face model repository](https://huggingface.co/ByteDance-Seed/Cola2);
+large evaluation files are intentionally not committed to this source
+repository.
 
 ## Expected files
 

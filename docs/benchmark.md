@@ -10,9 +10,10 @@ framework.
 
 ## External data
 
-Normalized source JSONL files are not committed to this repository. They will
-be published in the same Hugging Face repository as the Cola2 checkpoint; the
-link is **coming soon**.
+Normalized source JSONL files are not committed to this repository. They are
+published in the same
+[Hugging Face repository](https://huggingface.co/ByteDance-Seed/Cola2) as the
+Cola2 checkpoint.
 
 After download, either place all eight files in `eval_data/` or set:
 

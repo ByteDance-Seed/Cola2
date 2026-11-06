@@ -7,7 +7,7 @@ decoder 和 latent feedback 组成。
 [English](README.md) ·
 [论文](https://arxiv.org/abs/2610.31305) ·
 [项目主页](https://hongcanguo.github.io/Cola2/) ·
-模型与 benchmark 文件：**即将发布**
+[模型与 benchmark 文件](https://huggingface.co/ByteDance-Seed/Cola2)
 
 ## 项目简介
 
@@ -28,7 +28,8 @@ Cola2 将文本动态划分为语义 span，用紧凑的连续 latent 表示每�
 - 论文结果的 Markdown 和机器可读副本。
 
 本仓库不包含训练代码、模型权重、tokenizer 或 benchmark JSONL。Checkpoint 和
-归一化 benchmark 文件将在同一个 Hugging Face 仓库中发布。
+归一化 benchmark 文件托管在同一个
+[Hugging Face 仓库](https://huggingface.co/ByteDance-Seed/Cola2)。
 
 ## 项目讲解
 
@@ -104,8 +105,8 @@ Wheel 仅包含推理包；benchmark 模块与脚本需要从源码 checkout 中
 
 ## 模型文件
 
-Hugging Face 发布地址**即将提供**。下载 Transformers snapshot 后，将
-`COLA2_MODEL_PATH` 指向本地目录：
+从 [ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2)
+下载 Transformers snapshot 后，将 `COLA2_MODEL_PATH` 指向本地目录：
 
 ```bash
 export COLA2_MODEL_PATH=/path/to/cola2
@@ -162,9 +163,9 @@ instruction tuning 的聊天助手。
 
 ## 评测
 
-归一化 benchmark JSONL 将随 Hugging Face 模型一起发布。下载后放入
-`eval_data/`，或设置 `GENERATE_TASK_DATA_DIR=/path/to/eval_data`。发布前数据
-链接明确保留为**即将发布**。
+归一化 benchmark JSONL 与 Hugging Face 模型一起发布。请从
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2) 下载后放入
+`eval_data/`，或设置 `GENERATE_TASK_DATA_DIR=/path/to/eval_data`。
 
 运行每项任务 200 条样本的 smoke benchmark：
 

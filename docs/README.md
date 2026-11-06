@@ -4,8 +4,8 @@
 
 This documentation describes the released inference implementation and the
 public evaluation contract. Model weights, tokenizer assets, and normalized
-benchmark JSONL files will be distributed through the same Hugging Face
-repository; their link is **coming soon**.
+benchmark JSONL files are distributed through the same Hugging Face
+[repository](https://huggingface.co/ByteDance-Seed/Cola2).
 
 ## Start here
 

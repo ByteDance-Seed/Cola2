@@ -2,8 +2,9 @@
 
 [English](README.md) · [Benchmark 文档](../docs/benchmark_zh.md)
 
-归一化 benchmark JSONL 将与 Cola2 模型发布在同一个 Hugging Face 仓库中。
-发布链接目前为**即将发布**；大体积评测文件不会提交到本源码仓库。
+归一化 benchmark JSONL 与 Cola2 模型一起托管在
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2)；大体积
+评测文件不会提交到本源码仓库。
 
 ## 预期文件
 

@@ -8,8 +8,8 @@
 
 ## 外部数据
 
-归一化 source JSONL 不提交到本仓库，后续会与 Cola2 checkpoint 发布在同一个
-Hugging Face 仓库中；链接目前为**即将发布**。
+归一化 source JSONL 不提交到本仓库，与 Cola2 checkpoint 一起托管在
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2)。
 
 下载后，将 8 个文件放入 `eval_data/`，或设置：
 

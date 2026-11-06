@@ -13,9 +13,9 @@ generation. It combines:
 - a 36-layer Qwen3-4B-shaped span-causal token decoder.
 
 The model uses dynamic duration prediction and re-encodes committed text as
-latent feedback. The checkpoint and tokenizer will be released separately on
-Hugging Face; the link is **coming soon**. This repository contains the
-inference implementation and evaluation contract.
+latent feedback. The checkpoint and tokenizer are hosted in the
+[Hugging Face model repository](https://huggingface.co/ByteDance-Seed/Cola2).
+This repository contains the inference implementation and evaluation contract.
 
 ## Paper and project
 
@@ -23,7 +23,7 @@ inference implementation and evaluation contract.
   Semantic Compression and Balanced Discrete Generation*
 - **Project page:** <https://hongcanguo.github.io/Cola2/>
 - **Paper/arXiv:** <https://arxiv.org/abs/2610.31305>
-- **Model repository:** Coming soon
+- **Model repository:** <https://huggingface.co/ByteDance-Seed/Cola2>
 - **Architecture:** [docs/architecture.md](architecture.md)
 
 ## Training summary

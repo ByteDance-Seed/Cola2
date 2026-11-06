@@ -4,9 +4,10 @@
 
 ## 运行要求
 
-Checkpoint 推理需要单独发布的模型 snapshot（**即将发布**）。推荐使用支持
-bfloat16 的 CUDA 环境。CPU 适合运行 tiny 测试配置，但不适合作为发布
-checkpoint 的实际推理目标。
+Checkpoint 推理需要托管在
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2) 的模型
+snapshot。推荐使用支持 bfloat16 的 CUDA 环境。CPU 适合运行 tiny 测试配置，
+但不适合作为发布 checkpoint 的实际推理目标。
 
 ```python
 import torch

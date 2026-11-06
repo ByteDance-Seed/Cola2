@@ -25,7 +25,9 @@ original random seeds are not published.
 | **All tasks** | **8-task average** | **66.25** | **75.08** | **75.87** | **72.11** | **60.10** |
 
 The normalized JSONL files are distributed externally with the Hugging Face
-model release (link coming soon). This repository retains the task contract,
-expected hashes, prompt templates, scorer, and machine-readable copies of this
-table. See [the reproduction protocol](../docs/reproduction.md) before
-comparing local runs with these reference values.
+model release at
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2). This
+repository retains the task contract, expected hashes, prompt templates,
+scorer, and machine-readable copies of this table. See
+[the reproduction protocol](../docs/reproduction.md) before comparing local
+runs with these reference values.

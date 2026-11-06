@@ -3,8 +3,8 @@
 [English](README.md) · [仓库首页](../README_zh.md)
 
 本文档描述发布版推理实现与公开评测契约。模型权重、tokenizer 和归一化
-benchmark JSONL 将通过同一个 Hugging Face 仓库分发，链接目前为
-**即将发布**。
+benchmark JSONL 均托管在
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2)。
 
 ## 入门
 

@@ -11,8 +11,9 @@ Cola2 是用于层次化文本生成的 base continuous-latent language model，
 - 36 层 Qwen3-4B-shaped span-causal token decoder。
 
 模型使用 dynamic duration prediction，并把已经提交的文本重新编码为 latent
-feedback。Checkpoint 与 tokenizer 将在 Hugging Face 单独发布，链接目前为
-**即将发布**。本仓库包含推理实现与评测契约。
+feedback。Checkpoint 与 tokenizer 托管在
+[Hugging Face 模型仓库](https://huggingface.co/ByteDance-Seed/Cola2)。
+本仓库包含推理实现与评测契约。
 
 ## 论文与项目
 
@@ -20,7 +21,7 @@ feedback。Checkpoint 与 tokenizer 将在 Hugging Face 单独发布，链接目
   Continuous Semantic Compression and Balanced Discrete Generation*
 - **项目主页：** <https://hongcanguo.github.io/Cola2/>
 - **论文/arXiv：** <https://arxiv.org/abs/2610.31305>
-- **模型仓库：** 即将发布
+- **模型仓库：** <https://huggingface.co/ByteDance-Seed/Cola2>
 - **架构：** [docs/architecture_zh.md](architecture_zh.md)
 
 ## 训练摘要

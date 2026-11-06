@@ -9,8 +9,8 @@
 2. 完成一次确定性的完整 benchmark；
 3. 按论文协议汇总三次独立采样的 Cola2 运行。
 
-模型 checkpoint 与归一化 source JSONL 是外部产物，Hugging Face 链接目前为
-**即将发布**。
+模型 checkpoint 与归一化 source JSONL 是外部产物，托管在
+[ByteDance-Seed/Cola2](https://huggingface.co/ByteDance-Seed/Cola2)。
 
 ## 1. 环境
 
