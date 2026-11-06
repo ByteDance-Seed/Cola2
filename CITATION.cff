@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: >-
+  If you use Cola2, please cite this software release. Formal paper metadata
+  will be added when it becomes publicly available.
+title: Cola2
+type: software
+version: 0.1.0
+license: Apache-2.0
+url: https://hongcanguo.github.io/Cola2
+abstract: >-
+  Inference and evaluation software for Cola2: Co-Adaptive Hierarchical
+  Language Modeling with Continuous Semantic Compression and Balanced
+  Discrete Generation.
+keywords:
+  - language modeling
+  - continuous latent
+  - diffusion transformer
+  - semantic compression
+authors:
+  - given-names: Hongcan
+    family-names: Guo
+    affiliation: The University of Hong Kong and ByteDance Seed
+  - given-names: Yian
+    family-names: Zhao
+    affiliation: ByteDance Seed and Peking University
+  - given-names: Feng
+    family-names: Wang
+    affiliation: ByteDance Seed
+  - given-names: Shen
+    family-names: Nie
+    affiliation: Renmin University of China
+  - given-names: Guoqiang
+    family-names: Wei
+    affiliation: ByteDance Seed
+  - given-names: Yan
+    family-names: Zeng
+    affiliation: ByteDance Seed
+  - given-names: Hengshuang
+    family-names: Zhao
+    affiliation: The University of Hong Kong

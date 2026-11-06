@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+hf_models/
+benchmark_artifacts/
+eval_data/*.jsonl
+cola2_arxiv/

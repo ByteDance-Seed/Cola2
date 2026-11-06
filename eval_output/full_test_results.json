@@ -1,0 +1,86 @@
+{
+  "metric": "accuracy_percent",
+  "average": "unweighted_mean_over_8_tasks",
+  "source": "completed_cola2_manuscript",
+  "cola2_protocol": {
+    "task_score": "mean_of_3_independent_latent_noise_evaluations",
+    "original_seeds_published": false,
+    "token_decoding": "greedy",
+    "dit_steps": 8,
+    "dit_timestep_schedule": "low_noise",
+    "dit_guidance_scale": 10.0,
+    "decoder_guidance_scale": -0.9
+  },
+  "tasks": [
+    "race",
+    "narrativeqa",
+    "hellaswag",
+    "story_cloze",
+    "lambada",
+    "arc_easy",
+    "truthfulqa",
+    "mmlu"
+  ],
+  "models": {
+    "Meta-Llama-3-8B": {
+      "pretraining_tokens": "15T+",
+      "race": 75.77,
+      "narrativeqa": 42.70,
+      "hellaswag": 39.21,
+      "story_cloze": 79.49,
+      "lambada": 75.70,
+      "arc_easy": 90.86,
+      "truthfulqa": 63.04,
+      "mmlu": 63.19,
+      "mean8": 66.25
+    },
+    "Qwen2.5-7B": {
+      "pretraining_tokens": "18T",
+      "race": 89.95,
+      "narrativeqa": 32.90,
+      "hellaswag": 75.67,
+      "story_cloze": 95.09,
+      "lambada": 71.82,
+      "arc_easy": 96.00,
+      "truthfulqa": 69.03,
+      "mmlu": 70.16,
+      "mean8": 75.08
+    },
+    "Qwen3-8B-Base": {
+      "pretraining_tokens": "~36T",
+      "race": 90.65,
+      "narrativeqa": 37.30,
+      "hellaswag": 68.13,
+      "story_cloze": 97.44,
+      "lambada": 71.20,
+      "arc_easy": 97.35,
+      "truthfulqa": 72.58,
+      "mmlu": 72.31,
+      "mean8": 75.87
+    },
+    "LLaDA-8B-Base": {
+      "pretraining_tokens": "2.3T",
+      "race": 87.40,
+      "narrativeqa": 36.00,
+      "hellaswag": 69.65,
+      "story_cloze": 95.94,
+      "lambada": 67.90,
+      "arc_easy": 93.85,
+      "truthfulqa": 64.87,
+      "mmlu": 61.27,
+      "mean8": 72.11
+    },
+    "Cola2": {
+      "pretraining_tokens": "346.03B source tokens",
+      "race": 69.91,
+      "narrativeqa": 32.70,
+      "hellaswag": 41.75,
+      "story_cloze": 80.42,
+      "lambada": 63.00,
+      "arc_easy": 87.62,
+      "truthfulqa": 54.10,
+      "mmlu": 51.32,
+      "mean8": 60.10
+    }
+  }
+}

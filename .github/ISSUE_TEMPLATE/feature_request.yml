@@ -1,0 +1,36 @@
+name: Feature request
+description: Propose an improvement to Cola2 inference, evaluation, or documentation
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user or research problem would this change solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the desired behavior and public interface.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility and reproducibility
+      description: Note effects on checkpoints, benchmark contracts, outputs, dependencies, or documentation.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This request fits an inference-and-evaluation repository and does not assume the private training stack is available.
+          required: true

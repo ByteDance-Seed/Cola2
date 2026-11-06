@@ -1,0 +1,14 @@
+Cola2
+Copyright 2026 ByteDance Ltd. and/or its affiliates
+
+This product includes software developed for the Cola and Cola2 research
+projects and is distributed under the Apache License, Version 2.0.
+
+The model architecture and tokenizer are compatible with Qwen3 components.
+Qwen model assets are not relicensed by this repository and remain subject to
+their original license.
+
+Benchmark adapters reference third-party models and datasets. Normalized
+benchmark JSONL files are distributed separately from this source repository.
+Those assets are not part of the Apache-2.0 grant for this repository and
+remain subject to their respective licenses, terms, and citation requirements.

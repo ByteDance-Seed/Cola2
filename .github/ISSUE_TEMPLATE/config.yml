@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://security.bytedance.com/src
+    about: Report vulnerabilities privately; do not open a public issue.
+  - name: Cola2 project page
+    url: https://hongcanguo.github.io/Cola2
+    about: Project announcements and release links.
