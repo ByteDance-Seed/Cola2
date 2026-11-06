@@ -36,12 +36,10 @@ hosted in the same
 
 ## Project overview
 
-<video src="assets/videos/cola2-v2-motion-bgm-1080p.mp4" controls width="100%">
-  Your browser does not support embedded video.
-</video>
+[![Animated preview of the Cola2 method and results.](assets/videos/cola2-overview-preview.gif)](assets/videos/cola2-v2-motion-bgm-1080p.mp4)
 
-[▶ Watch or download the Cola2 overview video](assets/videos/cola2-v2-motion-bgm-1080p.mp4)
-· [Open the interactive project page](https://hongcanguo.github.io/Cola2/)
+Click the preview to watch the full video ·
+[Open the interactive project page](https://hongcanguo.github.io/Cola2/)
 
 ## Method
 

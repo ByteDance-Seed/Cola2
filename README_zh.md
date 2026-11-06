@@ -33,12 +33,10 @@ Cola2 将文本动态划分为语义 span，用紧凑的连续 latent 表示每�
 
 ## 项目讲解
 
-<video src="assets/videos/cola2-v2-motion-bgm-1080p.mp4" controls width="100%">
-  当前浏览器不支持内嵌视频。
-</video>
+[![Cola2 方法与结果的动态预览。](assets/videos/cola2-overview-preview.gif)](assets/videos/cola2-v2-motion-bgm-1080p.mp4)
 
-[▶ 播放或下载 Cola2 讲解视频](assets/videos/cola2-v2-motion-bgm-1080p.mp4)
-· [打开交互式项目主页](https://hongcanguo.github.io/Cola2/)
+点击预览可观看完整视频 ·
+[打开交互式项目主页](https://hongcanguo.github.io/Cola2/)
 
 ## 方法
 
